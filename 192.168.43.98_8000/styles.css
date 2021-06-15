@@ -6,7 +6,7 @@
 
 @media (max-width: 767px) {
     #contact .seperator-line:not(:last-child){
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid rgb(190, 190, 190);
         border-right: none !important;
     }
 }
@@ -25,6 +25,12 @@
 @media (max-width: 410px) {
     #about .about-text {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    #about .about-text {
+        padding: 15px;
     }
 }
 
