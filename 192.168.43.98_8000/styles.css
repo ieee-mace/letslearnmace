@@ -73,3 +73,27 @@ header {
         width: 90%;
     }
 }
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 60px;
+        left: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.3s ease;
+        display: block;
+        background: rgb(52, 58, 64);
+    }
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        margin-left: 50%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.show {
+        left: 0;
+    }
+}
